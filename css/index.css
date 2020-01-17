@@ -285,3 +285,12 @@ margin-bottom: 2%;
 .as2 img{
     width: 100%;
 }
+
+.forum{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-header img{
+    width: 30%;
+}
