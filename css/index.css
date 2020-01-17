@@ -67,8 +67,9 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 74%;
     margin: 0 auto;
+
 }
 
 .top-content {
@@ -88,6 +89,8 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-right:12% ;
+    margin-left: 12%;
 }
 
 .middle-content h2 {
@@ -101,6 +104,8 @@ p {
     justify-content: space-evenly;
 }
 
+
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -112,9 +117,49 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .one{
+    background-color: teal;
+}
+
+.middle-content .boxes .two{
+    background-color: gold;
+}
+
+.middle-content .boxes .three{
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .four{
+    background-color: coral;
+}
+
+.middle-content .boxes .five{
+    background-color: crimson;
+}
+
+.middle-content .boxes .six{
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .seven{
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .eight{
+    background-color: hotpink;
+}
+
+.middle-content .boxes .nine{
+    background-color: indigo;
+}
+
+.middle-content .boxes .zero{
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 0 14% 20px;
     justify-content: space-around;
 }
 
@@ -127,8 +172,10 @@ p {
 }
 
 footer {
-    width: 100%;
+    
     background: black;
+    margin-left: 12%;
+    margin-right: 12%;
 }
 
 footer nav {
@@ -143,4 +190,107 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav{
+    width: 88%;
+    display:flex;
+justify-content: space-evenly;
+align-items: center;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header img{
+    width: 70%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.about-header img{
+width: 82%;
+}
+
+ h6{
+    margin-bottom: 2%;
+}
+
+.as1{
+    display: flex;
+    border-top: 2px dotted black;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-bottom: 5%;
+    padding: 1%
+}
+.as1 p{
+    margin-bottom: 2%;
+}
+
+.as2 p{
+    margin-bottom: 2%;
+}
+
+button{
+margin-bottom: 2%;
+}
+
+.as2{
+    display: flex;
+    border-bottom: 2px dotted black;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-bottom: 3%;
+}
+
+.as2 div{
+    border-top: dotted 2px black;
+    padding: 0.5%
+}
+
+.as1 div{
+    border-bottom: dotted 2px black;
+}
+
+.pww{
+    margin-right: 20%;
+}
+
+.strat{
+    margin-right: 20%;
+   flex-wrap: wrap;
+}
+
+.last{
+    margin: 0 9%;
+    margin-bottom: 3%;
+}
+
+.as1 img{
+    width: 100%;
+}
+
+.as2 img{
+    width: 100%;
+}
+
+.forum{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-header img{
+    width: 30%;
 }
